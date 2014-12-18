@@ -4,7 +4,9 @@
 #define  ReleaseRes(lpRes) if(lpRes){delete lpRes; lpRes = NULL;}
 
 CPngStatic::CPngStatic()
-{
+{      
+
+
 	isGetBj = FALSE;
 	isSetClickDownImage = FALSE;
 	isSetClickUpImage = FALSE;
